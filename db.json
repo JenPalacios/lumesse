@@ -15,21 +15,21 @@
       "authorImageUrl": "http://example.url/authors/halliday.jpg"
     },
     {
-      "timestamp": 1513584854,
+      "timestamp": 1513584855,
       "headline": "Even newer version of the product announced.",
       "link": "http://example.url/newer_version",
       "authorName": "Lisa Halliday",
       "authorImageUrl": "http://example.url/authors/halliday.jpg"
     },
     {
-      "timestamp": 1482019200,
+      "timestamp": 1482019201,
       "headline": "Even newer version of the product announced.",
       "link": "http://example.url/newer_version",
       "authorName": "Lisa Halliday",
       "authorImageUrl": "http://example.url/authors/halliday.jpg"
     },
     {
-      "timestamp": 1450396800,
+      "timestamp": 1450396801,
       "headline": "Even newer version of the product announced.",
       "link": "http://example.url/newer_version",
       "authorName": "Lisa Halliday",
@@ -60,13 +60,6 @@
       },
       {
       "timestamp": 1482019200,
-      "headline": "Even newer version of the product announced.",
-      "link": "http://example.url/newer_version",
-      "authorName": "Lisa Halliday",
-      "authorImageUrl": "http://example.url/authors/halliday.jpg"
-      },
-      {
-      "timestamp": 1450396800,
       "headline": "Even newer version of the product announced.",
       "link": "http://example.url/newer_version",
       "authorName": "Lisa Halliday",

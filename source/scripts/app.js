@@ -1,16 +1,11 @@
 'use strict';
 
 require('../styles/app.sass');
-const data = require('./modules/getData');
+import {getAllData} from './modules/getData';
 
-const localButton = document.querySelector(".getLocal");
-const globalButton = document.querySelector(".getGlobal");
+const getPressButton = document.querySelector(".getReleases");
 
-localButton.addEventListener("click", () => {
-  data.orderData("GetLocalPressReleases", "Local Data");
-});
-
-globalButton.addEventListener("click", () => {
-  data.orderData("GetGlobalPressReleases", "Global Data");
+getPressButton.addEventListener("click", () => {
+  getAllData();
 });
 
