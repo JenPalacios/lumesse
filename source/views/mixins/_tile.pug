@@ -1,0 +1,9 @@
+mixin tile(type, status, date)
+  .tile(class=type)
+    .row
+      .column.tile--image
+        img(src="../images/avatar.svg" alt="r2d2" role="presentation")
+      .column.tile--text
+        p This is my task tile
+        p= status
+        p Completion date: #{date}

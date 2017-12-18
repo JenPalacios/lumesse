@@ -1,0 +1,17 @@
+extends layout/_layout
+include mixins/_tile
+
+block content
+  .container
+    .tiles
+      h1 Tiles
+      +tile("tile--not-started", "Not started", "31/12/2017")
+      +tile("tile--in-progress", "In progress", "31/12/2017")
+      +tile("tile--overdue", "Overdue", "01/12/2017")
+      +tile("tile--done", "Done", "18/12/2017")
+    .api
+      h1 API CALLS
+      button.getLocal Get Local Press Releases
+      p.localData
+      button.getGlobal Get Global Press Releases
+      p.globalData

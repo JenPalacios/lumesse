@@ -1,0 +1,39 @@
+*
+  box-sizing: border-box
+
+html, body
+  margin: 0
+  padding: 0
+  position: relative
+
+html
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+a
+  text-decoration: none
+  display: block
+
+img
+  display: block
+  border-width: 0
+  width: 100%
+  height: auto
+
+.container
+  max-width: 1440px
+  margin: 0 auto
+  text-align: center
+
+.row
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  align-items: center
+
+.column
+  flex: 1
+
+@media screen and (max-width: 800px)
+  .column
+    flex-basis: 100%
